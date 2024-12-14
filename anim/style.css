@@ -1,0 +1,79 @@
+.photo {
+    width: 300px;
+    margin: 30px;
+}
+
+img:hover {
+    animation-name: big-love;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    background-color: rgb(247, 105, 105);
+    width: 300px;
+    padding: 30px;
+    animation: ddiv 5s infinite alternate;
+    margin: 20px;
+    
+}
+
+h1 {
+    font-family: cursive;
+    font-style: italic;
+    animation: text 5s infinite alternate;
+}
+
+@keyframes big-love {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+
+}
+@keyframes text{
+	from{
+		font-size:50% ; 
+	}
+	40%{
+		color: lavender; 
+	}
+	to{
+		font-size:180% ; 
+	}
+}
+@keyframes  ddiv{
+	0%{
+		opacity:0.1;  
+        background-color:antiquewhite;
+        border-radius: 3px; 
+	}
+	40%{
+		background-color:black; 
+	}
+	70%{
+		background-color:lightpink;
+ 
+	}
+	100%{
+		 background-color: rgb(243, 5, 5);
+		opacity:1;
+		 border-radius: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+

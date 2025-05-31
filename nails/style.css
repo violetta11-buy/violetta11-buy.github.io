@@ -1,0 +1,42 @@
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+
+}
+
+h2 {
+    font-family: "Cormorant", serif;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+}
+p {
+    font-family: "PT Serif", serif;
+}
+
+table {
+    font-family: "Martian Mono", monospace;
+}
+.footer{
+    background-color: #6d6d6d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.souo{
+    text-decoration: none;
+    font-size: 2em;
+    margin: 7px;
+    color: rgb(231, 231, 231);
+}
+.souo:hover{
+    color: rgb(186, 0, 203);
+}
